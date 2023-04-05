@@ -1,0 +1,8 @@
+# ignores all exe files
+*.exe
+# ignores all txt files
+*.txt
+# ignores brute force , validator and gen file
+brute.cpp
+generator.cpp
+validator.py
