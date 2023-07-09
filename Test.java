@@ -3,8 +3,8 @@ import java.util.StringTokenizer;
 
 /*
 Author: Mars_Coder
-date: 
-problem link: 3
+date: 2023-07-09 21:32:04
+problem link: 
 * Rename the filename as Main before submitting if necessary!
 */
 
@@ -13,11 +13,11 @@ public class Test{
         //FastIO io = new FastIO();
         FastIO io = new FastIO(new File("input.txt"));
         int n = io.nextInt();
-        int[] a = new int[n];
+        int a[] = new int[n];
         for(int i = 0; i < n; ++i) a[i] = io.nextInt();
         String s = io.next();
         String line = io.nextLine();
-        for(int x: a) System.out.println(x);
+        for(int i = 0; i < n; ++i) System.out.println(a[i]);
         System.out.println(s);
         System.out.println(line);
     }
