@@ -6,6 +6,8 @@
 !javaTemplateForVsCode.txt
 # ignores all byte file or .class file produced by javac
 *.class
+# ignores java template
+javaTemplateForVsCode.json
 # ignores brute force , validator and gen file
 brute.cpp
 generator.cpp
