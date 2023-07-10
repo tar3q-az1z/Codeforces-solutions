@@ -3,23 +3,34 @@ import java.util.StringTokenizer;
 
 /*
 Author: Mars_Coder
-date: 2023-07-09 21:32:04
+date: 2023-07-10 20:24:13
 problem link: 
-* Rename the filename as Main before submitting if necessary!
+* Rename the filename as Main before submitting if needed!
 */
 
 public class Test{
     public static void main(String[] args){
-        //FastIO io = new FastIO();
-        FastIO io = new FastIO(new File("input.txt"));
-        int n = io.nextInt();
-        int a[] = new int[n];
-        for(int i = 0; i < n; ++i) a[i] = io.nextInt();
-        String s = io.next();
-        String line = io.nextLine();
-        for(int i = 0; i < n; ++i) System.out.println(a[i]);
-        System.out.println(s);
-        System.out.println(line);
+        FastIO io;
+        PrintWriter out = new PrintWriter(System.out);
+        /* out.println(), out.print(), out.printf() */
+        if(System.getProperty("ONLINE_JUDGE") == null){
+            io = new FastIO(new File("input.txt"));
+            try{
+                out = new PrintWriter(new FileWriter("output.txt"));
+            }catch(Exception e){
+                e.getStackTrace();
+            }
+        }else{
+            io = new FastIO();
+        }
+
+        int t = 1;
+        t = io.nextInt();
+        while(t-- > 0){
+            int n = io.nextInt();
+            out.println(n);
+        }
+        out.close();
     }
     public static class FastIO{
         BufferedReader br;
