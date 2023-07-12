@@ -3,7 +3,7 @@ import java.util.StringTokenizer;
 
 /*
 Author: Mars_Coder
-date: 2023-07-10 20:24:13
+date: 2023-07-11 22:51:20
 problem link: 
 * Rename the filename as Main before submitting if needed!
 */
@@ -27,8 +27,7 @@ public class Test{
         int t = 1;
         t = io.nextInt();
         while(t-- > 0){
-            int n = io.nextInt();
-            out.println(n);
+            
         }
         out.close();
     }
