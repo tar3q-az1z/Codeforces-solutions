@@ -27,20 +27,18 @@ public class Test{
         int t = 1;
         //t = io.nextInt();
         while(t-- > 0){
-            int n = io.nextInt();
-            Long[] a = new Long[n];
-            for(int i = 0; i < n; ++i){
-                a[i] = Long.valueOf(io.nextLong());
+            HashMap<String, Integer> map = new HashMap<>();
+            map.put("Bd", 17);
+            map.put("US", 200);
+            map.put("UK", 100);
+            map.put("IN", 250);
+            // for(Map.Entry<String, Integer> e: map.entrySet()){
+            //     out.println(e.getKey() + " -> " + e.getValue());
+            // }
+            Set<String> keys = map.keySet();
+            for(String key: keys){
+                out.println(key + " -> " + map.get(key));
             }
-            out.println("Before sorting: ");
-            for(Long x: a) out.print(x + " ");
-            Arrays.sort(a);
-            out.println("\n" + "After sorting: ");
-            for(long x: a) out.print(x + " ");
-            a[0] += 100;
-            out.println("");
-            for(long x: a) out.print(x + " ");
-            //out.println(a[0] == a[1]);
         }
         out.close();
     }
