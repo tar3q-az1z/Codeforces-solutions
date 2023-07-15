@@ -1,9 +1,9 @@
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /*
 Author: Mars_Coder
-date: 2023-07-11 22:51:20
+date: 2023-07-14 15:09:33
 problem link: 
 * Rename the filename as Main before submitting if needed!
 */
@@ -25,9 +25,22 @@ public class Test{
         }
 
         int t = 1;
-        t = io.nextInt();
+        //t = io.nextInt();
         while(t-- > 0){
-            
+            int n = io.nextInt();
+            Long[] a = new Long[n];
+            for(int i = 0; i < n; ++i){
+                a[i] = Long.valueOf(io.nextLong());
+            }
+            out.println("Before sorting: ");
+            for(Long x: a) out.print(x + " ");
+            Arrays.sort(a);
+            out.println("\n" + "After sorting: ");
+            for(long x: a) out.print(x + " ");
+            a[0] += 100;
+            out.println("");
+            for(long x: a) out.print(x + " ");
+            //out.println(a[0] == a[1]);
         }
         out.close();
     }
