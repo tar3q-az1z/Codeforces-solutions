@@ -35,3 +35,25 @@ int main(){
 	cout << mx << ln;
 	return 0;
 }
+
+/*
+some familiar issues & sugg.:
+!----> [RE-READ THE CODE!]
+!----> [invariants to array?]
+!----> [what about freq of elem/chars?]
+!----> [kinda back-tracking?]
+!----> [use clear() at last if resize() used!]
+!----> [look at global variables and their values]
+!----> [llabs() for long long int type]
+!----> [look at input size and time limit]
+!----> [No sync with puts fn]
+!----> [prefix vs suffix]
+!----> [binary search? -> ubd, lbd]
+!----> [array contains duplicate values!]
+!----> [(a/b+1)*b vs uceil(a,b)*b]
+!----> [unq_v for vec only]
+!----> [bitmask vs unsigned; (1ull << i) -> pow2]
+!----> [use gcd(), NOT __gcd() for ai < 0]
+!----> [rec. lambda: function<ret.type(param types,..)>fn_name = ....lambda fn && always dyn arr(vec, ..]
+
+*/
