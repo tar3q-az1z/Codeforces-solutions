@@ -53,6 +53,5 @@ int main(){
 			++ans;
 		}
 	}
-
 	return 0;
 }
