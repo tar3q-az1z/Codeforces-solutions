@@ -35,7 +35,6 @@ int main(){
 		else{
 			cout << cnt + (n - 1) << endl;
 		}
-		
 	}
 	return 0;
 }
