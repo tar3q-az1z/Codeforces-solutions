@@ -60,6 +60,5 @@ int main(){
 			else cout << k / n + 1 << ln;
 		}
 	}
-
 	return 0;
 }
