@@ -63,6 +63,5 @@ int main(){
 		 	cout << bi << ln;
 		 }
 	}
-
 	return 0;
 }
