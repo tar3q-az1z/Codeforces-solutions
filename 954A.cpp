@@ -16,6 +16,7 @@ typedef size_t idx;
 #define pb(n) push_back(n)
 #define ln endl
 #define sp ends
+
 int main(){
 	int n;
 	string s;
