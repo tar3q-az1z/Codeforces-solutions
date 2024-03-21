@@ -22,7 +22,6 @@ typedef size_t idx;
 #define newline cout << ln
 #define fastios ios_base::sync_with_stdio(false); cin.tie(0)
 
-
 int main(){
 	int n;
 	cin >> n;
