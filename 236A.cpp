@@ -44,6 +44,5 @@ int main(){
 	for(auto i : s) dis.insert(i);
 	if(dis.size() % 2) cout << "IGNORE HIM!\n";
 	else cout << "CHAT WITH HER!\n";
-
 	return 0;
 }
