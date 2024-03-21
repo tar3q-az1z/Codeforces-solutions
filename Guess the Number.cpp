@@ -1,6 +1,7 @@
 #include<cstdio>
 #include<cstring>
 using namespace std;
+
 int main(){
 	int left=1,right=1000000,query;
 	//char reply[3];
