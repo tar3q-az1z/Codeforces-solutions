@@ -45,6 +45,5 @@ int main(){
 	sort(IT(a));
 	if(n % 2) cout << a[n / 2] << ln;
 	else cout << a[n / 2 - 1] << ln;
-
 	return 0;
 }
