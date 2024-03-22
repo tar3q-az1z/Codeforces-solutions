@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool s[100005];
+
 int main(){
     int n, a;
     cin >> n;
