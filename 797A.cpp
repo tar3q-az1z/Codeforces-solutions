@@ -50,7 +50,6 @@ vi trial(int n, int k){
 	}
 	if(n > 1) f.pb(n);
 	return f;
-
 }
 int main(){
 
