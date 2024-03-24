@@ -49,42 +49,6 @@ int main(){
 	lli ans2 = (av * (av - 1)) / 2;
 	ans2 *= deb;
 	cout << ans2 + ans1 << ' ';
-	// lli temp = (m - 1) * 2;
-	// if(temp < n){
-	// 	if(n % 2 != 0 || m % 2 != 0){
-	// 		// lli ans = m - 1;
-	// 		// temp = n - temp;
-	// 		// ans += (temp * (temp - 1)) / 2;
-	// 		// cout << ans << ' ';
-
-	// 		lli av = n / m;
-	// 		lli deb = n % m;
-	// 		lli temp1 = m - deb;
-	// 		lli ans1 = (av * (av - 1)) / 2;
-	// 		ans1 *= temp1;
-	// 		++av;
-	// 		lli ans2 = (av * (av - 1)) / 2;
-	// 		ans2 *= deb;
-	// 		cout << ans2 + ans1 << ' ';
-	// 	}else{
-	// 		if(n % m == 0){
-	// 			lli ans = n / m;
-	// 			cout << ans * (ans - 1) << ' ';
-	// 		}else{
-	// 			lli av = n / m;
-	// 			lli deb = n % m;
-	// 			lli temp1 = m - deb;
-	// 			lli ans1 = (av * (av - 1)) / 2;
-	// 			ans1 *= temp1;
-	// 			++av;
-	// 			lli ans2 = (av * (av - 1)) / 2;
-	// 			ans2 *= deb;
-	// 			cout << ans2 + ans1 << ' ';
-	// 		}
-	// 	}
-	// }else{
-	// 	cout << (n - m) << ' ';
-	// }
 	lli _max = n - m + 1;
 	cout << (_max * (_max - 1)) / 2 << ln;
 	return 0;
