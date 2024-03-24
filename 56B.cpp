@@ -93,6 +93,5 @@ int main(){
 	}
 	if(cnt + 1 == n){cout << l + 1 << ' ' << r + 1 << ln; return 0;}
 	else{cout << '0' << ' ' << '0' << ln; return 0;}
-
 	return 0;
 }
