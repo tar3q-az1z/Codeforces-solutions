@@ -51,6 +51,5 @@ int main(){
 		}
 	}
 	cout << s << ln;
-
 	return 0;
 }
