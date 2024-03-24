@@ -49,6 +49,5 @@ int main(){
 		dg.clear();
 		++y;
 	}
-
 	return 0;
 }
