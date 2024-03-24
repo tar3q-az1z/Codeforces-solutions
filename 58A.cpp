@@ -48,6 +48,5 @@ int main(){
 	}
 	if(j == 5) cout << "YES\n";
 	else cout << "NO\n"; 
-
 	return 0;
 }
