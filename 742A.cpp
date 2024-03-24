@@ -43,6 +43,5 @@ int main(){
 	int p, b = 8;
 	cin >> p;
 	cout << binpow(b, p) << ln;
-
 	return 0;
 }
