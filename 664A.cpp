@@ -42,7 +42,5 @@ int main(){
 	cin >> b;
 	if(a == b) cout << a << ln;
 	else cout << '1' << ln;
-
-
 	return 0;
 }
