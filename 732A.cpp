@@ -30,7 +30,6 @@ const int MOD = 1000000007;
 #define precision(n) cout << fixed << setprecision(n) // n places after dec.point
 #define fastios ios_base::sync_with_stdio(false); cin.tie(0)
 
-
 int main(){
 	int k, r;
 	cin >> k >> r;
