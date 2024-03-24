@@ -66,6 +66,5 @@ int main(){
 	}
 	cout << "yes\n";
 	cout << l + 1 << ' ' << r + 1 << ln;
-
 	return 0;
 }
