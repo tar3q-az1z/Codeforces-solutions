@@ -44,7 +44,6 @@ int main(){
 	for(auto &k : a) cin >> k;
 	sort(IT(a));
 	for(int i = 0, j = n - 1; i < n/ 2; ++i, --j) cout << a[i] << ' ' << a[j] << ' ';
-	if(n % 2) cout << a[n / 2] << ln;	
-
+	if(n % 2) cout << a[n / 2] << ln;
 	return 0;
 }
