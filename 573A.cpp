@@ -48,7 +48,6 @@ int main(){
 			return 0;
 		}
 	}
-
 	cout << "Yes\n";
 	return 0;
 }
