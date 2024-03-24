@@ -41,6 +41,7 @@ int main(void){
 	cout << mx << ln;
 	return 0;
 }
+
 /*
 1. ans = 1, t = 7
 2. mx = 1, t = 13, start = 1, i = 1, ans = 0
