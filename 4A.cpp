@@ -43,6 +43,5 @@ int main(){
 	if(w == 2){cout << "NO\n"; return 0;}
 	if(w % 2) cout << "NO\n";
 	else cout << "YES\n";
-
 	return 0;
 }
