@@ -49,6 +49,5 @@ int main(){
 		if(i != a.size() - 1) cout << a[i] << '+';
 		else cout << a[i];
 	}
-
 	return 0;
 }
