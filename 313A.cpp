@@ -40,6 +40,5 @@ int main(){
 		int temp2 = (temp1 - (temp1 % 10)) + (n % 10);
 		cout << max(-temp1, -temp2) << "\n";
 	}
-
 	return 0;
 }
