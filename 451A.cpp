@@ -6,6 +6,7 @@
 using namespace std;
 #define PI    3.141592653589793238462643383279502884L
 
+
 int main(void){
 
 	#ifndef ONLINE_JUDGE
