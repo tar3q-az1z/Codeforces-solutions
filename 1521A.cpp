@@ -49,6 +49,5 @@ int main(){
 			cout << a << ' ' << a * b << ' ' << a * (b + 1) << ln;
 		}
 	}
-
 	return 0;
 }
