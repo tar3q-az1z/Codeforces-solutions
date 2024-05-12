@@ -192,7 +192,7 @@ int main(void){
 		long long int rd, l, r, midr, cnt1, cnt2, ans = 0ll;
 		cin >> rd; 
 		for(lli i = 0; i <= rd; ++i){
-			lli l = 0, r = rd + 5; 
+			l = 0, r = rd + 5; 
 			while(r > l + 1){
 				midr = l + (r - l) / 2;
 				if(i * i + midr * midr < (rd + 1) * (rd + 1)) l = midr;
