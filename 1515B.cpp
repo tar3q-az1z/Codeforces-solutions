@@ -38,6 +38,7 @@ int integral_sqrt(int x){
 	}
 	return ans;
 }
+
 int main(void){
 	
 	#ifndef ONLINE_JUDGE
