@@ -38,7 +38,5 @@ int main(){
 		if(cnt_even == cnt_odd) cout << "Yes\n";
 		else cout << "No\n";
 	}
-	
-	
 	return 0;
 }
