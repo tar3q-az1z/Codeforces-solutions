@@ -41,7 +41,5 @@ int main(){
 			cout << ln;
 		}
 	}
-	
-	
 	return 0;
 }
