@@ -7,6 +7,8 @@
 using namespace std;
 typedef long long int lli;
 typedef size_t idx;// <cstdio>
+
+
 int main(){
 	int t, a, b, c, d;
 	cin >> t;
