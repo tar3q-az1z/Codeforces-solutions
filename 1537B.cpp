@@ -23,6 +23,7 @@ typedef size_t idx;
 #define fastios ios_base::sync_with_stdio(false); cin.tie(0)
 
 
+
 int main(){
 
 	#ifndef ONLINE_JUDGE
