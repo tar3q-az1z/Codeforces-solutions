@@ -42,6 +42,5 @@ int main(){
 		}
 		cout << mx << ln;
 	}
-
 	return 0;
 }
