@@ -46,6 +46,5 @@ int main(){
 		int val = pow(2, p);
 		cout << val - 1 << ln;
 	}
-
 	return 0;
 }
