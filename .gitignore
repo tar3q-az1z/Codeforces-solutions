@@ -1,5 +1,7 @@
 # ignores all exe files
 *.exe
+# ignore swap file of vim
+*.swp
 # ignores all txt files
 *.txt
 # except this one
