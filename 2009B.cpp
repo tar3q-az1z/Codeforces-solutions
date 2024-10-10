@@ -170,7 +170,7 @@ int main(void){
         }
         reverse(All(a));
         for(auto i: a) cout << i << ' ';
-        cout << ln;
+        cout << '\n';
         
         /*#ifdef ONPC
             cout << "[testcase: " << tcase << "] ~~~~~~~~~~~~~~~~~~~~~~~~~ ";
