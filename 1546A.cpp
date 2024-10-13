@@ -79,6 +79,5 @@ int main(){
 		ai.clear();
 		bi.clear();
 	}
-
 	return 0;
 }
