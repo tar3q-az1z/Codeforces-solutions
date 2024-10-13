@@ -40,6 +40,5 @@ int main(){
 		k = n - (k * 2);
 		cout << k << ' ' << (n - k) / 2 << ln;
 	}
-
 	return 0;
 }
