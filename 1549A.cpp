@@ -44,6 +44,5 @@ int main(){
 		cin >> p;
 		cout << 2 << ' ' << p - 1 << ln;
 	}
-
 	return 0;
 }
