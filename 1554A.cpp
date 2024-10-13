@@ -21,7 +21,6 @@ typedef size_t idx;
 #define sp ends
 #define newline cout << ln
 const int MOD = 1000000007;
-
 #define fastios ios_base::sync_with_stdio(false); cin.tie(0)
 
 
