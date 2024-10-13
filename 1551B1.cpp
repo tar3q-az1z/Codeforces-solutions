@@ -49,6 +49,5 @@ int main(){
 		}
 		cout << cnt / 2 << ln;
 	}
-
 	return 0;
 }
