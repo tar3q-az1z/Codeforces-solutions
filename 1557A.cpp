@@ -60,6 +60,5 @@ int main(){
 		precision(9);
 		cout << m + sum << ln;
 	}
-
 	return 0;
 }
