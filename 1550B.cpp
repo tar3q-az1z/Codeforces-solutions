@@ -42,7 +42,6 @@ int main(void){
 		cin >> s;
 		int Nrep = unique(all(s)) - s.begin();
 		cout << n * a + max(n * b, (Nrep / 2 + 1) * b) << ln;
-		
 	}	
 	return 0;
 }
