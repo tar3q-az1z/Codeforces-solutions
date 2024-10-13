@@ -37,6 +37,5 @@ int main(){
 		if(n % 10 == 9) cout << (n / 10) + 1 << ln;
 		else cout << n / 10 << ln;
 	}
-
 	return 0;
 }
