@@ -48,6 +48,5 @@ int main(){
 		}
 		cout << ans << ln;
 	}
-
 	return 0;
 }
