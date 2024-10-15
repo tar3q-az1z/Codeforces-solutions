@@ -49,6 +49,5 @@ int main(){
 		cin >> k;
 		cout << a[k - 1] << ln;
 	}
-
 	return 0;
 }
