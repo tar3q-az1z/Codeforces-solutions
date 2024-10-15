@@ -64,6 +64,5 @@ int main(){
 			newline;
 		}
 	}	
-
 	return 0;
 }
