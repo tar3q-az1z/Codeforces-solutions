@@ -69,6 +69,7 @@ template<typename type> type pow2(type p){return ((type) 1) << p;}
 int main(void){
 	stop_sync;
 	untie_ios;
+	
 	#ifndef ONLINE_JUDGE
 		//freopen("generator.txt", "r", stdin);
 		freopen("input.txt", "r", stdin);
