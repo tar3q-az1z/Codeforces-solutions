@@ -67,6 +67,5 @@ int main(){
 		}
 		cout << h << ln;
 	}
-
 	return 0;
 }
