@@ -56,6 +56,5 @@ int main(){
 			else cout << 2 << ln;
 		}
 	}
-
 	return 0;
 }
