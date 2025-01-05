@@ -57,6 +57,5 @@ int main(){
 			else cout << "no\n";
 		} 
 	}
-
 	return 0;
 }
