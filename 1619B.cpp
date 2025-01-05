@@ -56,6 +56,5 @@ int main(){
 		}
 		cout << num.size() << ln;
 	}
-
 	return 0;
 }
