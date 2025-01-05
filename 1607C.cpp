@@ -51,7 +51,6 @@ int main(void){
 			mn = max(mn, a[i] - a[i - 1]);
 		}
 		cout << mn << ln;
-
 	}
 	return 0;
 }
