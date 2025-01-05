@@ -53,6 +53,5 @@ int main(){
 		for(auto i : a) s.insert(i);
 		cout << s.size() << ln;
 	}
-
 	return 0;
 }
