@@ -60,7 +60,6 @@ int main(){
 		}
 		for(auto i : a) cout << i << ' ';
 		newline;
-	} 
-
+	}
 	return 0;
 }
